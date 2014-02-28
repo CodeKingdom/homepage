@@ -1,0 +1,21 @@
+nav{
+  width: 400px;
+  margin: 0 auto;
+}
+  nav ul{
+    padding: 0 0 0 0;
+  }
+    nav ul li{
+      display: inline;
+      margin:0 14px 0 14px;
+    }
+      nav ul li a{
+        transition: border-bottom 0.25s ease;
+        border-bottom: 0px solid maroon;
+        color: white;
+        text-decoration: none;
+      }
+        ul li a:hover, ul li a:focus {
+         border-bottom: 3px solid maroon;
+         color: #AAA7A7;
+        }

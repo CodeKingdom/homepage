@@ -24,6 +24,7 @@
     <![endif]-->
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/main-grid.css">
+
     <!--<![endif]-->
 
 
@@ -37,38 +38,22 @@
 
 
 
-
+<link rel="stylesheet" href="css/nav.css">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-
-
-
-
-
-
-
 
 </head>
 <body>
 
-
-
-
-
-
-
-
-
-<div class="header">
-    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-        <ul>
-            <li class="pure-menu-selected"><a href="#">Home</a></li>
-            <li><a href="#">Tour</a></li>
-            <li><a href="#">Sign Up</a></li>
-        </ul>
-    </div>
-</div>
-
 <div class="splash-container">
+    <nav>
+        <ul>
+            <li><a href="#our-mission">Our mission</a></li>
+            <li><a href="#our-tools">Our tools</a></li>
+            <li><a href="#our-team">Our team</a></li>
+            <li><a href="#hire-us">Hire us</a></li>
+
+        </ul>
+    </nav>
     <div class="splash">
         <h1 class="splash-head">Code Kingdom</h1>
         <p class="splash-subhead">
@@ -78,9 +63,9 @@
 </div>
 
 <div class="content-wrapper">
+    <a id="our-mission"></a>
     <div class="content">
-        <h2 class="content-head is-center">About us.</h2>
-
+        <h2 class="content-head is-center">Our mission.</h2>
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-med-1-2 pure-u-lrg-1-4">
 
@@ -127,10 +112,9 @@
             <img class="pure-img-responsive" alt="html5" width="150" src="assets/html5.png">
             <img class="pure-img-responsive" alt="android" width="150" src="assets/android.png">
         </div>
+        <a id="our-tools"></a>
         <div class="pure-u-1 pure-u-med-1-2 pure-u-lrg-2-5">
-
             <h2 class="content-head content-head-ribbon">Our tools.</h2>
-
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -144,7 +128,7 @@
         <div class="pure-u-1 pure-u-med-1-2 pure-u-lrg-3-5">
 
             <h2 class="content-head content-head-ribbon">Our team.</h2>
-
+            <a id="our-team"></a>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -159,7 +143,7 @@
 
     <div class="content">
         <h2 class="content-head is-center">Call on the power of the realm.</h2>
-
+        <a id="hire-us"></a>
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-med-2-5">
                 <form id="proposal-form" class="pure-form pure-form-stacked" enctype="multipart/form-data" method="post">
@@ -202,8 +186,9 @@
     </div>
 
 </div>
-
-<script src="teamwork.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="scripts/teamwork.js"></script>
+<script src="scripts/scroll.js"></script>
 
 </body>
 </html>
