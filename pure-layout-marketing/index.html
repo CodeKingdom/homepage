@@ -7,7 +7,7 @@
 
     <title>Code Kingdom &ndash; We Build Legendary Software</title>
 
-    
+
 
 
 
@@ -18,34 +18,34 @@
 
 
 
-  
+
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/main-grid-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/main-grid.css">
     <!--<![endif]-->
-  
 
-  
+
+
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/marketing.css">
     <!--<![endif]-->
-  
+
 
 
 
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 
 
-    
 
-    
 
-    
+
+
+
 
 </head>
 <body>
@@ -60,8 +60,6 @@
 
 <div class="header">
     <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">Your Site</a>
-
         <ul>
             <li class="pure-menu-selected"><a href="#">Home</a></li>
             <li><a href="#">Tour</a></li>
@@ -78,6 +76,7 @@
         </p>
         <p>
             <a href="http://purecss.io" class="pure-button pure-button-primary">Get Started</a>
+            A realm of developers ready to take ideas from imagined to immaculate.
         </p>
     </div>
 </div>
@@ -127,13 +126,14 @@
         </div>
     </div>
 
-    <div class="ribbon l-box-lrg pure-g">
+    <div class="ribbon l-box-lrg pure-g" id="our-libraries">
         <div class="l-box-lrg is-center pure-u-1 pure-u-med-1-2 pure-u-lrg-2-5">
-            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/common/file-icons.png">
+            <img class="pure-img-responsive" alt="html5" width="150" src="assets/html5.png">
+            <img class="pure-img-responsive" alt="android" width="150" src="assets/android.png">
         </div>
-        <div class="pure-u-1 pure-u-med-1-2 pure-u-lrg-3-5">
+        <div class="pure-u-1 pure-u-med-1-2 pure-u-lrg-2-5">
 
-            <h2 class="content-head content-head-ribbon">Our libraries.</h2>
+            <h2 class="content-head content-head-ribbon">Our tools.</h2>
 
             <p>
                 Don't let our name fool you. We love building awesome software with the newest tech.
@@ -144,10 +144,7 @@
         </div>
     </div>
 
-    <div class="ribbon l-box-lrg pure-g">
-        <div class="l-box-lrg is-center pure-u-1 pure-u-med-1-2 pure-u-lrg-2-5">
-            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/common/file-icons.png">
-        </div>
+    <div class="ribbon l-box-lrg pure-g" id="our-team">
         <div class="pure-u-1 pure-u-med-1-2 pure-u-lrg-3-5">
 
             <h2 class="content-head content-head-ribbon">Our team.</h2>
@@ -159,70 +156,58 @@
                 software to make a big impact.
             </p>
         </div>
+        <div class="l-box-lrg is-center pure-u-1 pure-u-med-1-2 pure-u-lrg-2-5">
+            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/common/file-icons.png">
+        </div>
     </div>
 
     <div class="content">
-        <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+        <h2 class="content-head is-center">Call on the power of the realm.</h2>
 
         <div class="pure-g">
             <div class="l-box-lrg pure-u-1 pure-u-med-2-5">
-                <form class="pure-form pure-form-stacked">
+                <form id="proposal-form" class="pure-form pure-form-stacked" enctype="multipart/form-data" method="post">
                     <fieldset>
 
-                        <label for="email">Your Name</label>
-                        <input id="email" type="text" placeholder="Your Name">
+                        <label for="email" autofocus>Your Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your Name" required>
 
 
                         <label for="email">Your Email</label>
-                        <input id="email" type="email" placeholder="Your Email">
+                        <input id="email" name="email" type="email" placeholder="Your Email" required>
 
-                        <label for="password">Your Password</label>
-                        <input id="password" type="password" placeholder="Your Password">
+                        <label for="proposal-body">Your Proposal</label>
+                        <textarea id="proposal-body" name="proposal-text" cols="40" rows="8" placeholder="Describe what you'd like us to build ..." required></textarea>
 
-                        <button type="submit" class="pure-button">Sign Up</button>
+                        <button class="pure-button" id="proposalSubmit">Submit</button>
                     </fieldset>
                 </form>
             </div>
 
             <div class="l-box-lrg pure-u-1 pure-u-med-3-5">
-                <h4>Contact Us</h4>
+                <h4>Submit a proposal</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.
+                    Provide a brief description of what you're trying to build and we'll let you know how we can help.
+                    After a brief consultation we will give you an itemized estimate describing the costs and estimated build
+                    time for each element of your application.
+
                 </p>
 
                 <h4>More Information</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    Have further questions about Code Kingdom? Contact our squire at <span>
+                      <a id="contactlink" target="_blank"
+                      href="https://mail.google.com/mail/?view=cm&fs=1&to=squire@codekingdom.io&su=More%20Information%20About%20Code%20Kingdom&tf=1">
+                        squire@codekingdom.io</a></span>
                 </p>
             </div>
         </div>
 
     </div>
 
-    <div class="footer l-box is-center">
-        View the source of this layout to learn more. Made with love by the YUI Team.
-    </div>
-
 </div>
 
-<script src="http://yui.yahooapis.com/3.14.1/build/yui/yui.js"></script>
-<script>
-YUI().use('node-base', 'node-event-delegate', function (Y) {
-    // This just makes sure that the href="#" attached to the <a> elements
-    // don't scroll you back up the page.
-    Y.one('body').delegate('click', function (e) {
-        e.preventDefault();
-    }, 'a[href="#"]');
-});
-</script>
-
-
-
-
+<script src="teamwork.js"></script>
 
 </body>
 </html>

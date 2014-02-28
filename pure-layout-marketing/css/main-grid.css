@@ -425,6 +425,9 @@
         width: 100%;
     }
 }
+#our-team{
+  background-color: #974140;
+}
 
 @media screen and (min-width: 58em) {
     .pure-u-lrg-1,
@@ -639,7 +642,10 @@
         width: 100%;
     }
 }
-
+#contactlink {
+  color: #974140;
+  text-decoration: none;
+}
 @media screen and (min-width: 75em) {
     .pure-u-xl-1,
     .pure-u-xl-1-1,
