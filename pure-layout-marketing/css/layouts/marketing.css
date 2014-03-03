@@ -23,7 +23,9 @@ h6,
 label {
     color: #34495e;
 }
-
+#proposal-body{
+    width: 100%;
+}
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
