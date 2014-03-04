@@ -26,6 +26,40 @@ label {
 #proposal-body{
     width: 100%;
 }
+
+#our-contact{
+    height: 300px;
+}
+
+.box{
+    width: 50%;
+    margin: 0 auto;
+}
+#contact-h4{
+    margin-bottom: 5px;
+}
+.contact{
+    float:left;
+    width: 50%;
+}
+    ul.contact{
+        padding-left: 0px;
+    }
+    .contact li{        
+        float: left;
+        list-style-type: none;
+    }
+
+    .contact i {
+        font-size: 40px;
+        color: #aaa;
+        margin: 0 5px 0 5px;
+        transition: color 1s ease;
+    }
+        .contact i:hover, .contact i:focus {
+            color: #24945a;
+        }
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
@@ -165,7 +199,7 @@ a.pure-button-primary {
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
-    font-family: 'Uncial Antiqua', cursive;
+    font-family: 'Alegreya SC', serif;
 }
 
 /* This is the subheading that appears on the blue section */
@@ -255,7 +289,7 @@ a.pure-button-primary {
     /* We decrease the width of the .splash, since we have more width
     to work with */
     .splash {
-        width: 50%;
+        width: 60%;
         height: 50%;
     }
 
