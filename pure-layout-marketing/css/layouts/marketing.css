@@ -290,8 +290,6 @@ a.pure-button-primary {
         height: 500px;
     }*/
 
-    /* We decrease the width of the .splash, since we have more width
-    to work with */
     .splash {
         width: 60%;
         height: 50%;
